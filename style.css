@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 80px; /* some padding */
+  background: #1abc9c; /* green background */
+  }
+
+  h1 {
+    text-align: center; /* center the text */
+    color: white; /* white text color */
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: ;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+ fieldset {
+     border: 2px solid whitesmoke;
+     border-radius: 8px;
+     padding: 20px;
+     margin-bottom: 20px;
+     background color: aliceblue;
+ }
+ legend {
+     font-weight: bold;
+     text-align: left;
+     color:black;
+ }
+
+label{
+    display: block;
+    margin-top: 10px;
+    color:black;
+}
+input,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: ipx solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    cursor: pointer;
+}
+button:hover {
+    background-color: gray;
+}
