@@ -8,44 +8,49 @@
 </head>
 <body>
 
-<div class="header">
+
   <h1>Static Resume Builder by Warisha Sohail</h1>
-  <form id="resume form">
+
+  <form id="resumeForm">
    <fieldset>
       <legend>PERSONAL INFORMATION </legend> 
       <label for="Name">Name: </label>
       <input type="text" id="Name" Name="Name"
- required><br>
+      required placeholder="Enter your name">
+<br>
        <label for="Profile Picture">Profile Picture: </label>
-      <input type="image" id="Profile Picture" Name="Profile Picture" required>
+       <input type="file" id="Profile Picture" required>
 <br>
        <label for="email">Email: </label>
-       <input type="email" id="email" name="email" required>
+       <input type="email" id="email" name="email" 
+       required placeholder="Enter your email address">
 <br>
        <label for="Phone Number">Phone: </label>
-       <input type="Phone number" id="Phone Number" Name="Phone Number"
-  required> <br>
+       <input type="number" id="number" 
+       required placeholder="Enter your phone number">
+<br>
 </fieldset>
 <fieldset>
-      <legend>EDUCATION </legend> 
-      <label for="Education">Education: </label>
-      <textarea name="Education" id="Education" cols="30" rows="3" required></textarea> <br>
+      <legend>EDUCATION </legend>
+      <textarea name="Education" id="Education" cols="30" rows="3" 
+      required placeholder="Enter your educational details"></textarea>
+<br>
     </fieldset>
 <fieldset>
       <legend>EXPERIENCE </legend> 
-      <label for="Experience">Experience: </label>
-      <textarea name="Experience" id="Experience" cols="30" rows="1" required></textarea> <br>
+      <textarea name="Experience" id="Experience" cols="30" rows="3" 
+      required placeholder="Enter your work experience"></textarea> 
 <br>
     </fieldset>
 <fieldset>
       <legend>SKILLS </legend> 
-      <label for="Skills">Skills: </label>
-      <textarea name="Skills" id="Skills" cols="30" rows="3" required></textarea> <br>
+      <textarea name="Skills" id="Skills" cols="30" rows="3" 
+      required placeholder="Enter your skills"></textarea> 
 <br>
     </fieldset>
-
-    <button>Generate your Resume</button>
+<div class="container text-center mt=3">
+    <button> Generate your Resume</button>
+      </div>
 </form>
-</div>
 </body>
 </html>
